@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Shoe Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">Nike Shoe Store</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Discover the Latest Nike Shoes</h1>
+        <p>Step up your game with our exclusive collection!</p>
+        <a href="#products" class="cta-button">Shop Now</a>
+    </section>
+
+    <main>
+        <section id="products" class="product-container">
+            <h2>Featured Products</h2>
+            <div class="product-card">
+                <img src="nike1.jpeg" alt="Nike Air Max">
+                <h3>Nike Air Max</h3>
+                <p>$150.00</p>
+                <a href="#" class="button">View Details</a>
+            </div>
+            <div class="product-card">
+                <img src="nike2.webp" alt="Nike Zoom">
+                <h3>Nike Zoom</h3>
+                <p>$130.00</p>
+                <a href="#" class="button">View Details</a>
+            </div>
+            <div class="product-card">
+                <img src="nike3.png" alt="Nike React">
+                <h3>Nike React</h3>
+                <p>$140.00</p>
+                <a href="#" class="button">View Details</a>
+            </div>
+            <div class="product-card">
+                <img src="nike5.jpg" alt="Nike Air Force 1">
+                <h3>Nike Air Force 1</h3>
+                <p>$120.00</p>
+                <a href="#" class="button">View Details</a>
+            </div>
+            <div class="product-card">
+                <img src="nike2.webp" alt="Nike Zoom">
+                <h3>Nike Zoom</h3>
+                <p>$130.00</p>
+                <a href="#" class="button">View Details</a>
+            </div>
+            <div class="product-card">
+                <img src="nike2.webp" alt="Nike Zoom">
+                <h3>Nike Zoom</h3>
+                <p>$130.00</p>
+                <a href="#" class="button">View Details</a>
+            </div>
+        </section>
+        <section id="featured-products">
+            <h2>Featured Products</h2>
+            <div class="carousel">
+                <div class="carousel-container">
+                    <div class="carousel-item">
+                        <img src="nike3.png" alt="Nike Shoe 1">
+                        <h3>Nike Shoe 1</h3>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="nike3.png" alt="Nike Shoe 2">
+                        <h3>Nike Shoe 2</h3>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="nike3.png" alt="Nike Shoe 3">
+                        <h3>Nike Shoe 3</h3>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="nike3.png" alt="Nike Shoe 4">
+                        <h3>Nike Shoe 4</h3>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="nike3.png" alt="Nike Shoe 5">
+                        <h3>Nike Shoe 5</h3>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="nike3.png" alt="Nike Shoe 6">
+                        <h3>Nike Shoe 6</h3>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="nike3.png" alt="Nike Shoe 7">
+                        <h3>Nike Shoe 7</h3>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="nike3.png" alt="Nike Shoe 8">
+                        <h3>Nike Shoe 8</h3>
+                    </div>
+                    <!-- Add more shoes as needed -->
+                </div>
+                <div class="carousel-dots">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <!-- Add more dots as needed -->
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="gallery" class="gallery-container">
+            <h2>Gallery</h2>
+            <div class="gallery-item">
+                <img src="nike6.jpg" alt="Nike Lifestyle">
+            </div>
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/300?text=Nike+Performance" alt="Nike Performance">
+            </div>
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/300?text=Nike+Community" alt="Nike Community">
+            </div>
+        </section>
+
+        <section id="contact" class="contact-container">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="button">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Nike Shoe Store. All Rights Reserved.</p>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
